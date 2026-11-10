@@ -1,0 +1,3 @@
+Model,Validation Accuracy,Validation Macro F1
+Logistic Regression,0.6518600777345919,0.6120952836569783
+TensorFlow MLP,0.9367018323153803,0.9358186698749367

@@ -1,0 +1,4 @@
+architecture,tag,seed,dropout,accuracy,macro_f1,epochs,parameters,training_seconds,checkpoint
+MLP,no_dropout,42,0.0,0.9322598556357579,0.9316048779889584,8,156230,26.83446189999995,models/step18_mlp_no_dropout_seed42.keras
+MLP,no_dropout,123,0.0,0.9400333148250972,0.940092303052983,8,156230,15.72884619999968,models/step18_mlp_no_dropout_seed123.keras
+MLP,no_dropout,2026,0.0,0.9511382565241533,0.9503098393115402,8,156230,12.088964800000213,models/step18_mlp_no_dropout_seed2026.keras

@@ -1,0 +1,35 @@
+{
+    "model": "Manual NumPy MLP",
+    "dataset": "UCI HAR",
+    "input_features": 18,
+    "hidden_neurons": 32,
+    "output_classes": 6,
+    "hidden_activation": "tanh",
+    "output_activation": "softmax",
+    "loss_function": "cross_entropy",
+    "main_training": {
+        "learning_rate": 0.05,
+        "batch_size": 64,
+        "epochs_completed": 150,
+        "initial_loss": 1.717613987208106,
+        "final_training_loss": 0.2004806849951492,
+        "final_validation_loss": 0.31130934134810445
+    },
+    "gradient_check": {
+        "epsilon": 1e-05,
+        "entries_checked": 8,
+        "passed": true,
+        "max_absolute_error": 5.08461247281447e-12,
+        "max_relative_error": 6.7266585226921946e-09
+    },
+    "tiny_batch_diagnosis": {
+        "samples": 12,
+        "learning_rate": 0.1,
+        "max_epochs": 2000,
+        "actual_epochs": 406,
+        "stopping_rule": "loss < 0.05 and accuracy = 100%",
+        "initial_loss": 1.6466484860143737,
+        "final_loss": 0.04984770198893972,
+        "final_accuracy": 1.0
+    }
+}

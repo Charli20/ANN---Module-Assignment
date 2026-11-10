@@ -1,0 +1,12 @@
+{
+    "model": "Logistic Regression",
+    "input": "128x9 sensor windows flattened to 1152",
+    "C": 1.0,
+    "max_iter": 1500,
+    "solver": "lbfgs",
+    "primary_metric": "macro_f1",
+    "validation_accuracy": 0.6518600777345919,
+    "validation_macro_f1": 0.6120952836569783,
+    "training_time_seconds": 98.12747459999991,
+    "test_evaluated": false
+}

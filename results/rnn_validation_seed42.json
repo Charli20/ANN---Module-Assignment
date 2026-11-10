@@ -1,0 +1,27 @@
+{
+    "model": "Elman SimpleRNN",
+    "seed": 42,
+    "input_shape": [
+        128,
+        9
+    ],
+    "rnn_units": 32,
+    "dense_units": 64,
+    "dropout": 0.25,
+    "optimizer": "adam",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "epochs_completed": 27,
+    "early_stopping_patience": 5,
+    "checkpoint_selection": "minimum validation loss",
+    "primary_metric": "macro_f1",
+    "validation_accuracy": 0.9211549139367018,
+    "validation_macro_f1": 0.9184316821674118,
+    "parameter_count": 3846,
+    "training_time_seconds": 134.76177069999994,
+    "tensorflow_version": "2.21.0",
+    "python_version": "3.13.17",
+    "checkpoint": "models/rnn_seed42.keras",
+    "test_evaluated": false
+}

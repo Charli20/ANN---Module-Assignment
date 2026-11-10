@@ -1,0 +1,4 @@
+Model,Milliseconds per sample,Parameters,Batch Size,Hardware,Device
+Logistic Regression,0.007411093793052714,N/A,32,"Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",CPU
+MLP,0.2353327343826095,156230,32,"Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",CPU
+RNN,11.720198984312447,3846,32,"Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",CPU

@@ -1,0 +1,35 @@
+{
+    "dataset": "UCI HAR",
+    "seeds": [
+        42,
+        123,
+        2026
+    ],
+    "primary_metric": "macro_f1",
+    "selection_basis": "validation data only",
+    "validation_leader": "MLP",
+    "architectures": {
+        "MLP": {
+            "tag": "main",
+            "dropout": 0.25,
+            "validation_macro_f1_mean": 0.9415075872172373,
+            "validation_macro_f1_std": 0.004927383349152954,
+            "checkpoints": {
+                "42": "models/step18_mlp_main_seed42.keras",
+                "123": "models/step18_mlp_main_seed123.keras",
+                "2026": "models/step18_mlp_main_seed2026.keras"
+            }
+        },
+        "RNN": {
+            "tag": "main",
+            "dropout": 0.25,
+            "validation_macro_f1_mean": 0.881331767986662,
+            "validation_macro_f1_std": 0.03249132608087844,
+            "checkpoints": {
+                "42": "models/step18_rnn_main_seed42.keras",
+                "123": "models/step18_rnn_main_seed123.keras",
+                "2026": "models/step18_rnn_main_seed2026.keras"
+            }
+        }
+    }
+}

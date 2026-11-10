@@ -1,0 +1,26 @@
+{
+    "model": "TensorFlow MLP",
+    "seed": 42,
+    "input_features": 1152,
+    "hidden_layers": [
+        128,
+        64
+    ],
+    "dropout": 0.25,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "max_epochs": 30,
+    "actual_epochs": 9,
+    "early_stopping_patience": 5,
+    "checkpoint_selection": "minimum validation loss",
+    "primary_metric": "macro_f1",
+    "validation_accuracy": 0.9367018323153803,
+    "validation_macro_f1": 0.9358186698749367,
+    "parameter_count": 156230,
+    "training_time_seconds": 42.42847500000062,
+    "tensorflow_version": "2.21.0",
+    "sklearn_version": "1.9.1",
+    "python_version": "3.13.17",
+    "checkpoint": "models/mlp_seed42.keras",
+    "test_evaluated": false
+}
